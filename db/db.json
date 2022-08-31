@@ -1,0 +1,198 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      },
+      {
+        "id": 5,
+        "tipo": "Australiano"
+      },
+      {
+        "id": 6,
+        "tipo": "Gergelim"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      },
+      {
+        "id": 5,
+        "tipo": "Fraldinha"
+      },
+      {
+        "id": 6,
+        "tipo": "Costela"
+      },
+      {
+        "id": 7,
+        "tipo": "Frango"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Queijo Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Queijo Mussarela"
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 6,
+        "tipo": "Picles"
+      },
+      {
+        "id": 7,
+        "tipo": "Alface"
+      },
+      {
+        "id": 8,
+        "tipo": "Tomate"
+      }
+    ],
+    "acompanhamentos": [
+      {
+        "id": 1,
+        "tipo": "Coca Cola"
+      },
+      {
+        "id": 2,
+        "tipo": "Guaraná"
+      },
+      {
+        "id": 3,
+        "tipo": "Pepsi"
+      },
+      {
+        "id": 4,
+        "tipo": "Batata frita"
+      },
+      {
+        "id": 5,
+        "tipo": "Nuggets"
+      },
+      {
+        "id": 6,
+        "tipo": "Onion rings"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "nome": "Rodrigo",
+      "carne": "Picanha",
+      "pao": "Gergelim",
+      "opcionais": [
+        "Bacon",
+        "Queijo Cheddar"
+      ],
+      "acompanhamentos": [
+        "Coca Cola",
+        "Nuggets",
+        "Batata frita"
+      ],
+      "status": "Finalizado",
+      "id": 1
+    },
+    {
+      "nome": "Larissa",
+      "carne": "Frango",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Alface",
+        "Tomate"
+      ],
+      "acompanhamentos": [
+        "Coca Cola",
+        "Batata frita"
+      ],
+      "status": "Em produção",
+      "id": 2
+    },
+    {
+      "nome": "Leticia",
+      "carne": "Veggie burger",
+      "pao": "Australiano",
+      "opcionais": [
+        "Picles",
+        "Tomate",
+        "Alface"
+      ],
+      "acompanhamentos": [
+        "Guaraná",
+        "Batata frita",
+        "Onion rings"
+      ],
+      "status": "Em produção",
+      "id": 3
+    },
+    {
+      "nome": "João",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Queijo Cheddar"
+      ],
+      "acompanhamentos": [
+        "Pepsi",
+        "Nuggets"
+      ],
+      "status": "Solicitado",
+      "id": 4
+    }
+  ]
+}
